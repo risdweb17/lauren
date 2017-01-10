@@ -2,8 +2,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-	line-height: 1.3em;
-	font-size: 1em;
+    /*background-color: #E5F2EE;*/
+/*    background-color: #FEFFED;
+*/	line-height: 1.3em;
+/*	padding: 1em;
+*/	font-size: 1em;
 
 }
 
@@ -20,6 +23,10 @@ span {
 	font-style: italic;
 }
 
+/*h2 {
+	margin:0
+	padding:0;
+}*/
 
 img {
 	float:left;
@@ -29,32 +36,38 @@ img {
 	max-height:1600px;*/
 }
 
+/*img {
+	height: auto;
+	width: auto;
+	max-width:150px;
+	max-height:150px;
+}*/
 
 .title {
+	color: #00DC96;
 	font-weight: bold;
-	padding: 1em;
+	/*padding: 1em;*/
 }
 
-#ul.a {
+/*#ul.a {
     list-style-type: circle;
     font-size: .8em;
-}
+}*/
 
 .container {
-/*padding: 2em;
-*/width:100%;
+padding: 1em;
+width:100%;
 	margin: 10px 20px 10px auto;
 	background-position: fixed;
 	overflow: auto;
 	padding: 1em;
 }
-
 .container2 {
-/*padding: 2em;
-*/width:100%;
-	/*margin: 10px 20px 10px auto;*/
+	width: 100%;
+	margin: 10px 20px 10px auto;
 	background-position: fixed;
 	overflow: auto;
+	padding: 0;
 }
 
 .chunk {
@@ -84,20 +97,20 @@ img {
 	box-sizing: border-box;
 }
 .smallest {
-	padding: 1em;
-	font-size: .8em;
+/*	padding: 1em;
+	*/font-size: .8em;
 }
 
 }
 #smallestbold {
-	padding: 1em;
-	font-size: .8em;
+/*	padding: 1em;
+*/	font-size: .8em;
 	font-style: bold;
 }
 
 .body {
-	padding: 1em;
-	font-size: .8em;
+/*	padding: 1em;
+*/	font-size: .8em;
 	padding:1em;
 }
 
