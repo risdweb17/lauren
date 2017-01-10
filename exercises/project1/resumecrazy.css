@@ -2,19 +2,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-   
 	line-height: 1.3em;
-	padding: 1em;
 	font-size: 1em;
-	background-color: #00DC96
-    color: #FFFFFF;
+
 }
 
 p {
 	margin: 0;
 	padding: 0;
-/*	background-color: #00DC96;
-*/}
+	background-color: #00DC96
+    color: #FFFFFF;
+}
 
 
 
@@ -22,27 +20,19 @@ span {
 	font-style: italic;
 }
 
-/*h2 {
-	margin:0
-	padding:0;
-}*/
 
 img {
 	float:left;
 	height: auto;
-	width: auto;
-	max-width:150px;
-	max-height:150px;
+	width: 100%;
+/*	max-width:1600px;
+	max-height:1600px;*/
 }
-/*img {
-	height: auto;
-	width: auto;
-	max-width:150px;
-	max-height:150px;
-}*/
+
 
 .title {
 	font-weight: bold;
+	padding: 1em;
 }
 
 #ul.a {
@@ -52,15 +42,26 @@ img {
 
 .container {
 /*padding: 2em;
-*/margin: 10px 20px 10px auto;
-background-position: fixed;
-overflow: auto;
+*/width:100%;
+	margin: 10px 20px 10px auto;
+	background-position: fixed;
+	overflow: auto;
+	padding: 1em;
+}
+
+.container2 {
+/*padding: 2em;
+*/width:100%;
+	/*margin: 10px 20px 10px auto;*/
+	background-position: fixed;
+	overflow: auto;
 }
 
 .chunk {
 	width: 31%;
 	height: 60%;
 	float: left;
+	padding: 1em;
 	margin: 20px 30px 20px auto;
 	box-sizing: border-box;
 }
@@ -69,6 +70,7 @@ overflow: auto;
 	width: 31%;
 	height: 60%;
 	float:left;
+	padding: 1em;
 	margin: 20px 30px 20px auto;
 	box-sizing: border-box;
 }
@@ -77,20 +79,24 @@ overflow: auto;
 	width: 31%;
 	height: 60%;
 	float:left;
+	padding: 1em;
 	margin: 20px 30px 20px auto;
 	box-sizing: border-box;
 }
 .smallest {
+	padding: 1em;
 	font-size: .8em;
 }
 
 }
 #smallestbold {
+	padding: 1em;
 	font-size: .8em;
 	font-style: bold;
 }
 
 .body {
+	padding: 1em;
 	font-size: .8em;
 	padding:1em;
 }
