@@ -1,0 +1,12 @@
+body {
+	    font-family: 'Arial', monospace;
+		line-height: 1.3em;
+		font-size: .8em;
+		margin:0;
+	}
+
+.rectangle{
+	background-color: red;
+	padding: 15%;
+	margin: 10em, 10em, 10em, auto;
+}
