@@ -1,0 +1,112 @@
+<html>
+<head>
+<link rel="stylesheet" href="floatmap.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+	<div id="img">
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('.a').each(animateDiv);
+		});
+
+		function makeNewPosition(){
+	
+			// Get viewport dimensions (remove the dimension of the div)
+			var h = $(window).height() - 200;
+			var w = $(window).width() - 200;
+			
+			var nh = Math.floor(Math.random() * h);
+			var nw = Math.floor(Math.random() * w);
+			
+			return [nh,nw];    	
+		}
+
+		function animateDiv(){
+		  var el = $(this);
+			var newq = makeNewPosition();
+			var oldq = $(el).offset();
+			var speed = calcSpeed([oldq.top, oldq.left], newq);
+			
+			$(el).animate({ top: newq[0], left: newq[1] }, speed, function(){
+			  animateDiv.apply(this);        
+			});	
+		};
+
+
+		function calcSpeed(prev, next) {
+			
+			var x = Math.abs(prev[1] - next[1]);
+			var y = Math.abs(prev[0] - next[0]);
+			
+			var greatest = x > y ? x : y;
+			
+			var speedModifier = .05;
+
+			var speed = Math.ceil(greatest/speedModifier);
+
+			return speed;
+		}
+
+		$(function() {
+	  $('img').hover(function() {
+	  $(this).wrap('<div class="tint"></div>');
+	  });
+});
+	</script>
+	
+	<div class="a">
+		<a href="https://risdweb17.github.io/lauren/project4/blurring.html"> 
+		<img src= imgs/iconwide3.png>
+		</a> 
+	</div>
+		
+	<div class='a' style="left:390px; top:850px">optics</div>
+	
+	<div class='a' style="left:510px; top:450px">
+		<img src= imgs/iconwide.png> 
+	</div>
+	
+	<div class='a' style="left:1110px; top:250px">
+		<img src= imgs/iconwide4.png> 
+	</div>
+	
+	<div class='a' style="left:270px; top:650px">
+		<img src= imgs/iconwide5.png> 
+	</div>
+	
+	<div class='a' style="left:1200px; top:550px">
+		<img src= imgs/iconwide6.png> 
+	</div>
+	
+	<div class='a' style="left:910px; top:650px">
+		<img src= imgs/iconwide7.png> 
+	</div>
+	
+	<div class='a' style="left:410px; top:250px">
+		<img src= imgs/iconwide8.png> 
+	</div>
+	
+	<div class='a' style="left:710px; top:100px">
+		<img src= imgs/iconwide9.png> 
+	</div>
+	
+	<div class='a' style="left:510px; top:450px">
+		<img src= imgs/iconwide10.png> 
+	</div>
+
+	<div class='a' style="left:270px; top:0px">
+	Pan&ndash;
+
+	</div>
+
+
+	</div>
+	
+	
+</body>
+</html>

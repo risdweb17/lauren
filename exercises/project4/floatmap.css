@@ -1,0 +1,31 @@
+body{
+	color: #grey;
+	font-size: 8em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: left;
+}
+
+img{
+	width: 120%
+}
+
+#img{
+	position: absolute;
+	z-index: -10;
+	width:35%;
+	padding: 5%;
+	margin-left:10%;
+}
+
+
+.a{
+position: absolute;
+width: 10%;
+}
+
+
+.text{
+	mix-blend-mode: multiply;
+}
+

@@ -1,0 +1,33 @@
+li{
+  list-style: none;
+  display: hidden;
+}
+
+.button {
+	position: absolute;
+  width: 70px;
+  height: 30px;
+  background-color: #3B5998;
+  margin-top: 3em;
+  margin-left: 2em;
+  font-size: .9em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 3px;  display: block;
+
+}
+
+.container{
+
+}
+
+.text{
+  display: hidden;
+/*  position: absolute;
+*/  margin-top: 4em;
+  margin-left: 2em;
+}
+
