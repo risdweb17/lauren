@@ -1,9 +1,10 @@
 <html>
 <head>
 <link rel="stylesheet" href="floatmap.css">
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <meta name="viewport" content="width-device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -44,59 +45,60 @@
 	</div>
 
 
-	<a href="blurring.html" class="a">
+	<a href="blurring.html" class="a play">
 		<img src= imgs/iconwide3.png> 
 			<div class="tint" id="red">
 			</div> 
 	</a>
 	
-	<a href="blurring.html" class='a' style="left:510px; top:450px"> 
+	<div class='a play' style="left:510px; top:450px"> 
 			<img src= imgs/iconwide.png>
 			<div class="tint" id="orange">
 			</div> 
-	</a>
+			<div class="stop"></div>
+	</div>
 	
-	<a href="blurring.html" class='a' style="left:110px; top:250px">
+	<a href="blurring.html" class='a play' style="left:110px; top:250px">
 		<img src= imgs/iconwide4.png> 
 		<div class="tint" id="yellow">
 			</div> 
 	</a>
 	
-	<a href="blurring.html" class='a' style="left:270px; top:620px">
+	<a href="blurring.html" class='a play' style="left:270px; top:620px">
 		<img src= imgs/iconwide5.png>
 		<div class="tint" id="tanbright">
 			</div> 
 	</a>
 	
-	<a href="blurring.html" class='a' style="left:1200px; top:550px">
+	<a href="blurring.html" class='a play' style="left:1200px; top:550px">
 		<img src= imgs/iconwide6.png> 
 		<div class="tint" id="mint">
 			</div> 
 	</a>
 	
-	<a href="blurring.html"  class='a' style="left:910px; top:610px">
+	<a href="blurring.html"  class='a play' style="left:910px; top:610px">
 		<img src= imgs/iconwide7.png> 
 		<div class="tint" id="green">
 			</div> 
 	</a>
 	
-	<a href="blurring.html" class='a' style="left:410px; top:250px">
+	<a href="blurring.html" class='a play' style="left:410px; top:250px">
 		<img src= imgs/iconwide8.png>
 		<div class="tint" id="sky">
 			</div> 
 	</a>
 	
-	<a href="blurring.html" class='a' style="left: 710px; top:100px">
+	<a href="blurring.html" class='a play' style="left: 710px; top:100px">
 		<img src= imgs/iconwide9.png>
 		<div class="tint" id="blue">
 			</div> 
 	</a>
 
-	<a href="about.html"  class='a' style="left: 270px; top:0px">
+	<a href="about.html"  class='a play' style="left: 270px; top:0px">
 	Pan&ndash;
 	</a>
 
-	<<a href="about.html" class='a' style="left:390px; top:550px">optics
+	<a href="about.html" class='a play' style="left:390px; top:550px">optics
 	</a>
 
 
@@ -122,8 +124,12 @@
 
 <script>
 	$(document).ready(function(){
-			$('.a').each(animateDiv);
-
+			$('.play').each(animateDiv);
+			$( ".a" ).hover(function() {
+			  	$( this ).stop();
+			}, function() {
+				$( this ).bind(animateDiv);
+			});
 
 		function makeNewPosition(){
 	
@@ -162,6 +168,9 @@
 
 			return speed;
 		}
+
+
+		
 
 		// $(function() {
 	 //  $('img').hover(function() {

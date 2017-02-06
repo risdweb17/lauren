@@ -8,17 +8,7 @@ body{
 
 img{
 	width: 100%;
-	filter: grayscale(100%);
 }
-
-#img{
-	position: absolute;
-	z-index: -10;
-	width:35%;
-	padding: 5%;
-	margin-left:10%;
-}
-
 
 .a{
 	position: absolute;
@@ -27,10 +17,21 @@ img{
 	font-size: 8em;
 	text-decoration: none;
 	color:black;
+	filter: grayscale(100%);
+
 }
 
 .a:hover{
 	z-index: 50;
+	width: 50%;
+	filter:grayscale(0%);
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.a:hover .tint{
+	display: block;
 }
 
 
@@ -70,9 +71,6 @@ img{
 	font-size:1em;
 }
 
-.a:hover .tint{
-	display: block;
-}
 
 #red{
 	background-color: #D90000;
