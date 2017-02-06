@@ -1,18 +1,129 @@
 <html>
 <head>
 <link rel="stylesheet" href="floatmap.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
 </head>
+
 <body>
-	<div id="img">
+	<div class="footercont">
+		<ul>
+			<a href="blurring.html"> 
+	    		<li id="red" class= "footer"></li>
+	    	</a>
+
+	    	<a href="blurring.html"> 
+	    		<li id="orange" class= "footer"></li>
+	    	</a>
+
+	    	<a href="blurring.html"> 
+	    		<li id="yellow" class= "footer"></li>
+	    	</a>
+
+	    	<a href="blurring.html"> 
+	    		<li id="tan" class= "footer"></li>
+	    	</a>
+
+	    	<a href="blurring.html"> 
+	    		<li id="mint" class= "footer"></li>
+			</a>
+
+			<a href="blurring.html"> 
+	    	<li id="green" class= "footer"></li>
+	    	</a>
+	    	
+			<a href="blurring.html"> 
+	    		<li id="sky" class= "footer"></li>
+	    	</a>
+
+	    	<a href="blurring.html"> 
+				<li id="blue" class= "footer"></li>
+			</a> 
+		</ul>
 	</div>
-	<script>
-		$(document).ready(function(){
+
+
+	<a href="blurring.html" class="a">
+		<img src= imgs/iconwide3.png> 
+			<div class="tint" id="red">
+			</div> 
+	</a>
+	
+	<a href="blurring.html" class='a' style="left:510px; top:450px"> 
+			<img src= imgs/iconwide.png>
+			<div class="tint" id="orange">
+			</div> 
+	</a>
+	
+	<a href="blurring.html" class='a' style="left:110px; top:250px">
+		<img src= imgs/iconwide4.png> 
+		<div class="tint" id="yellow">
+			</div> 
+	</a>
+	
+	<a href="blurring.html" class='a' style="left:270px; top:620px">
+		<img src= imgs/iconwide5.png>
+		<div class="tint" id="tanbright">
+			</div> 
+	</a>
+	
+	<a href="blurring.html" class='a' style="left:1200px; top:550px">
+		<img src= imgs/iconwide6.png> 
+		<div class="tint" id="mint">
+			</div> 
+	</a>
+	
+	<a href="blurring.html"  class='a' style="left:910px; top:610px">
+		<img src= imgs/iconwide7.png> 
+		<div class="tint" id="green">
+			</div> 
+	</a>
+	
+	<a href="blurring.html" class='a' style="left:410px; top:250px">
+		<img src= imgs/iconwide8.png>
+		<div class="tint" id="sky">
+			</div> 
+	</a>
+	
+	<a href="blurring.html" class='a' style="left: 710px; top:100px">
+		<img src= imgs/iconwide9.png>
+		<div class="tint" id="blue">
+			</div> 
+	</a>
+
+	<a href="about.html"  class='a' style="left: 270px; top:0px">
+	Pan&ndash;
+	</a>
+
+	<<a href="about.html" class='a' style="left:390px; top:550px">optics
+	</a>
+
+
+	
+
+<!-- 		<div class="topedge">
+    	<ul>
+	    	<li class="topedgewhite">
+	    	<li class="topedgeblack">
+	    	<li class="topedgewhite">
+	    	<li class="topedgeblack">
+	    	<li class="topedgewhite">
+	    	<li class="topedgeblack">
+	    	<li class="topedgewhite">
+			</li>
+		</ul>
+    </div> -->
+
+
+
+
+	</div>
+
+<script>
+	$(document).ready(function(){
 			$('.a').each(animateDiv);
-		});
+
 
 		function makeNewPosition(){
 	
@@ -35,7 +146,7 @@
 			$(el).animate({ top: newq[0], left: newq[1] }, speed, function(){
 			  animateDiv.apply(this);        
 			});	
-		};
+		}
 
 
 		function calcSpeed(prev, next) {
@@ -52,61 +163,13 @@
 			return speed;
 		}
 
-		$(function() {
-	  $('img').hover(function() {
-	  $(this).wrap('<div class="tint"></div>');
-	  });
-});
-	</script>
-	
-	<div class="a">
-		<a href="https://risdweb17.github.io/lauren/project4/blurring.html"> 
-		<img src= imgs/iconwide3.png>
-		</a> 
-	</div>
-		
-	<div class='a' style="left:390px; top:850px">optics</div>
-	
-	<div class='a' style="left:510px; top:450px">
-		<img src= imgs/iconwide.png> 
-	</div>
-	
-	<div class='a' style="left:1110px; top:250px">
-		<img src= imgs/iconwide4.png> 
-	</div>
-	
-	<div class='a' style="left:270px; top:650px">
-		<img src= imgs/iconwide5.png> 
-	</div>
-	
-	<div class='a' style="left:1200px; top:550px">
-		<img src= imgs/iconwide6.png> 
-	</div>
-	
-	<div class='a' style="left:910px; top:650px">
-		<img src= imgs/iconwide7.png> 
-	</div>
-	
-	<div class='a' style="left:410px; top:250px">
-		<img src= imgs/iconwide8.png> 
-	</div>
-	
-	<div class='a' style="left:710px; top:100px">
-		<img src= imgs/iconwide9.png> 
-	</div>
-	
-	<div class='a' style="left:510px; top:450px">
-		<img src= imgs/iconwide10.png> 
-	</div>
+		// $(function() {
+	 //  $('img').hover(function() {
+	 //  $(this).wrap('<div class="tint"></div>');
+	 //  });
 
-	<div class='a' style="left:270px; top:0px">
-	Pan&ndash;
-
-	</div>
-
-
-	</div>
-	
+	 });
+</script>
 	
 </body>
 </html>

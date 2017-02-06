@@ -1,73 +1,64 @@
 body{
-	color: grey;
-/*	font-size: 8em;
-*/	font-family: 'Roboto', sans-serif;
+	color: #grey;
+	font-size: 8em;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 	text-align: left;
 }
-
+/*
 img{
-	width: 100%;
-	filter: grayscale(100%);
-}
-
-#img{
-	position: absolute;
-	z-index: -10;
-	width:35%;
-	padding: 5%;
-	margin-left:10%;
-}
-
+	width: 100%
+}*/
 
 .a{
 	position: absolute;
-	width: 150px;
 	z-index: 5;
-	font-size: 8em;
-	text-decoration: none;
-	color:black;
 }
 
 .a:hover{
 	z-index: 50;
 }
 
+#divid{
+	width: 100%
+	position:relative;
+}
+
+.text{
+	mix-blend-mode: multiply;
+}
+
 
 .footercont{
 	width: 100%;
-	position: absolute;
-	left: 30%;
-	display:inline-block;
+	position: relative;
 	text-align: center;
+	margin-bottom: -40px
 }
 
 
 .footer{	
-	float:left;
+	display: inline-block;
 	height: 15px;
 	width: 70px;
 	border: 1px;
 	border-color: grey;
 	border-style: solid;
 	list-style: none;
-	mix-blend-mode: multiply;
-	filter: grayscale(100%);
+	margin-top: 4.3em;
 }
 
-.footer:hover{
-	filter: grayscale(0%);
-}
+
 
 .tint{
 	width: 150px;
 	height: 114px;
-	mix-blend-mode: multiply;
+	opacity: .4;
 	position: absolute;
 	top: 0;
 	left: 0;
 	display: none;
-	font-size:1em;
+	padding:1em;
 }
 
 .a:hover .tint{
@@ -107,9 +98,6 @@ img{
 	background-color: #00AEEF;
 }
 
-#tanbright{
-	background-color: yellow;
-}
 
 .topedge{
 	position: relative;
@@ -137,6 +125,6 @@ img{
 }
 
 #smalltext{
-	font-size: 8em;
+	font-size: 1em;
 	font-color: black;
 }

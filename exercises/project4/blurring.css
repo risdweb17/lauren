@@ -9,23 +9,17 @@ body{
 
 .img{
 /*	float: left;*/
-	height: 45%;
-	width: 45%;
-	
-/*	height: 40%;
-*//*	padding: 1em;
-*/	box-sizing: border-box;
-/*	margin-right: 2em;
-*/	margin-bottom: 3em;
+	height: 50%;
+	width: 50%;
+	box-sizing: border-box;
 	vertical-align: top;
 	margin-left: 1.5em;
-	margin-top: 1.5em;
+	margin-top: 1.7em;
 }
 
 p{
 	vertical-align: top;
-/*	display:inline-block;
-*/	width: 40%;
+	width: 40%;
 	float:left;
 	margin-right: 2em;
 }
@@ -54,16 +48,16 @@ p{
 }
 
 .bodytext{
-	margin-left: 1.5em;
-	margin-top: 2em;
-	margin-right: 2em;
-	width: 108%;
+	margin-left: 4%;
+	margin-top: 6%;
+	width: 102%;
 }
 
 .box2{
 	width: 90%;
 	border: 1px;
 	border-style: solid;
+	padding: 2em;
 }
 
 .column{
@@ -74,24 +68,17 @@ p{
 .column2{
 	padding-top: 3em;
 	margin-left: 2em;
-	padding-right: 2em;
 	margin-left: 10%;
 	float: left;
 	margin-bottom: none;
 }
 
-.column3{
-	float: left;
-	padding-top: inherit;
-	padding-left: 1em;
-	margin-left: 10%;	
-}
 
 .column4{
 /*	display: inline-block;
 */	position: absolute;
 	right: 5px;
-	top: 7em;
+	top: 8em;
 	float:right;
 	padding-left:2em;
 	margin:none;
@@ -124,3 +111,5 @@ p{
 	margin-bottom: 3em;
 	vertical-align: top;
 }
+
+
