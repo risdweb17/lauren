@@ -66,3 +66,10 @@ h3:click{
 	display: block;
 
 }
+
+
+@media only screen and (max-width: 715px){
+	.container {
+		display: block;
+	}
+}
