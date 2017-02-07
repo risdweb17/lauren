@@ -30,8 +30,20 @@ img{
 	top:0;
 }
 
-.a:hover .tint{
+.a:hover .caption{
 	display: block;
+}
+
+#caption{
+	font-size: 1rem;
+	display: none;
+	background-color: white;
+/*	filter: opacity(.5);*/
+	width:35%;
+	padding-top:1rem;
+	padding-bottom: 1rem;
+	padding-left:.5rem;
+	color: black;
 }
 
 
@@ -41,6 +53,7 @@ img{
 	left: 30%;
 	display:inline-block;
 	text-align: center;
+	z-index: 51;
 }
 
 

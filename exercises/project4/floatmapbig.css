@@ -1,5 +1,5 @@
 body{
-	color: grey;
+	color: black;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 	text-align: left;
@@ -8,10 +8,14 @@ body{
 	margin-right:1em;
 	width: 100vw;
 	font-size: 8em;
+	line-height: .5rem;
+}
+a{
+	text-decoration: none;
 }
 
 h1{
-	font-size: 6rem;
+	font-size: 8rem;
 	color: black;
 
 }
@@ -19,9 +23,18 @@ img{
 	width: 100%
 }
 
+h3{
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+h4{
+	font-size: .9rem;
+}
 
 h5{
 	margin: 0;
+	font-size:.8rem;
 }
 
 
@@ -31,7 +44,7 @@ h5{
 }
 
 #medium{
-	width: 60%
+	width: 55%
 }
 
 #large{
@@ -50,7 +63,7 @@ h5{
 
 
 .text{
-	width: 40%;
+	width: 30%;
 	position: absolute;
 	z-index: 5;
 	color: black;
@@ -58,8 +71,15 @@ h5{
 	}
 
 #caption{
-	font-size: 1em;
+	font-size: 1rem;
 	display: none;
+	background-color: black;
+	color:white;
+/*	filter: opacity(.5);
+*//*	width:35%;*/
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	padding-left:1rem;
 }
 
 
