@@ -1,0 +1,42 @@
+.container{
+    display: inline-block;
+}
+
+
+.container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+@media only screen and (max-width: 400px){
+  .button {
+    display: block;
+  }
+
+
+.button {
+  padding: 15px 25px;
+  font-size: .9em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  outline: none;
+  color: #fff;
+  background-color: #3B5998;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px #999;
+  display: block;
+  width: 15%;
+}
+
+.text{
+  display: hidden;
+}
+
+
+}

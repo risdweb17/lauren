@@ -1,0 +1,22 @@
+.button {
+	padding: 15px 25px;
+  font-size: .9em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  outline: none;
+  color: #fff;
+  background-color: #3B5998;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px #999;
+  display: block;
+  width: 15%;
+}
+
+.text{
+  display: hidden;
+}
+
+/*button*/
