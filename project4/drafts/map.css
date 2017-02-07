@@ -1,0 +1,162 @@
+body {
+	   	font-family: 'Roboto', sans-serif;
+	   	color: black;
+		line-height: 1.3em;
+		font-weight: bold;
+		font-size: .8em;
+		margin:0;
+	}
+
+/*img{
+	position: relative;
+	width: 80%;
+	z-index: -10;
+	border: 1px;
+	border-color: black;
+	float: right;
+	clip: 0,100px;
+}
+*/
+
+
+
+
+
+.container{
+	width: 100%;
+	/*display: inline-block;
+	position: relative;*/
+	display: flex;
+}
+
+.image{ 
+	position: relative;
+	left: 1em;
+	top: 1em;
+	float: left;
+	width: 20%;
+ }
+
+.title{
+	font-size: 6em;
+	transform: translate(0px, 200px) rotate(90deg);
+	float: left;
+	margin-left: -100px;
+	width: 345px;
+}
+
+.title2{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: left;
+	display: hidden;
+	list-style: none;
+}
+
+.content {
+	flex: 1;
+	background: yellow;
+}
+
+#map {
+	position: relative;
+}
+
+#map img{
+	position: absolute;
+	max-width: 100%;
+}
+
+.dots{
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	position: absolute;
+	right: 130px;
+	top: 280px;
+	}
+
+
+
+#red{
+	background-color: #D90000;
+}
+
+#orange{
+	background-color: #D56A2A;
+}
+
+#yellow{
+	background-color: #DA9F29;
+}
+
+#tan{
+	background-color: #F9EAC2;
+}
+
+#mint{
+	background-color: #ECFED5;
+}
+
+#green{
+	background-color: #41AD49;
+}
+
+
+#sky{
+	background-color: #D5EFFE;
+}
+
+#blue{
+	background-color: #00AEEF;
+}
+
+#bluetext{
+	color: #00AEEF;
+}
+
+
+
+.topedge{
+	position: relative;
+	text-align: center;
+	margin-top: 2em;
+	width: 100%;
+}
+
+.topedgewhite{
+	display: inline-block;
+	height: 15px;
+	width: 90px;
+	background-color: white;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.topedgeblack{
+	display: inline-block;
+	height: 15px;
+	width: 70px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: black;
+}
+
+.footercont{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.footer{	
+	display: inline-block;
+	height: 15px;
+	width: 71px;
+	border: 1px;
+	border-color: grey;
+	border-style: solid;
+	list-style: none;
+	position: bottom;
+}

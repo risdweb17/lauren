@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+
+
+<style>
+  .fade-in{
+    -webkit-animation: fade-in 2s ease;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+  }
+
+  @-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+
+</style>
+</head>
+
+<body>
+
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+
+  <div id="banner-load"></div>
+
+  <script>
+      var images = ['imgs/iconwide2.png', 'imgs/iconwide3.png', 'imgs/iconwide5.png', 'imgs/iconwide4.png'];
+      
+      $('<img class="fade-in" src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load');
+  </script>
+
+
+
+</body>
+</html>

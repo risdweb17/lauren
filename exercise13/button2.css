@@ -1,0 +1,70 @@
+body{
+  margin: 2em;
+}
+
+.container{
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+li{
+  float:left;
+  padding: 20px;
+}
+
+.active{
+  width:100%;
+}
+
+.container ul: after{
+  display:none;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: .9em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  outline: none;
+  color: #fff;
+  background-color: #3B5998;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px #999;
+  width: 15%;
+  margin-left:2em;
+  position: relative;
+  display: none;
+}
+
+
+.text{
+  display: none;
+}
+
+@media only screen and (max-width: 400px){
+
+
+.button{
+  display: block;
+}
+
+.text{
+  display: none;
+}
+
+li{
+  padding: 20px;
+  display: block;
+}
+
+.container{
+  display: none;
+}
+
+}

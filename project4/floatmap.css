@@ -1,0 +1,159 @@
+body{
+	color: grey;
+/*	font-size: 8em;
+*/	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: left;
+}
+
+img{
+	width: 100%;
+}
+
+h4{
+	font-size: .9em;
+	line-height: 1.3em;
+}
+
+.a{
+	position: absolute;
+	width: 150px;
+	z-index: 5;
+	font-size: 8em;
+	text-decoration: none;
+	color:black;
+	filter: grayscale(100%);
+
+}
+
+.a:hover{
+	z-index: 50;
+	width: 50%;
+	filter:grayscale(0%);
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+
+#caption{
+	font-size: 1rem;
+	display: none;
+	background-color: white;
+/*	filter: opacity(.5);*/
+	width:45%;
+	padding-top:1rem;
+	padding-bottom: 1rem;
+	padding-left:.5rem;
+	color: black;
+}
+
+
+.a:hover #caption{
+	display: block;
+}
+
+.footercont{
+	width: 100%;
+	position: absolute;
+	left: 30%;
+	display:inline-block;
+	text-align: center;
+	z-index: 51;
+}
+
+
+.footer{	
+	float:left;
+	height: 15px;
+	width: 70px;
+	border: 1px;
+	border-color: grey;
+	border-style: solid;
+	list-style: none;
+	mix-blend-mode: multiply;
+	filter: grayscale(100%);
+}
+
+.footer:hover{
+	filter: grayscale(0%);
+}
+
+.tint{
+	width: 150px;
+	height: 114px;
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	font-size:1em;
+}
+
+
+#red{
+	background-color: #D90000;
+}
+
+#orange{
+	background-color: #D56A2A;
+}
+
+#yellow{
+	background-color: #DA9F29;
+}
+
+#tan{
+	background-color: #F9EAC2;
+}
+
+#mint{
+	background-color: #ECFED5;
+}
+
+#green{
+	background-color: #41AD49;
+}
+
+
+#sky{
+	background-color: #D5EFFE;
+}
+
+#blue{
+	background-color: #00AEEF;
+}
+
+#tanbright{
+	background-color: yellow;
+}
+
+.topedge{
+	position: relative;
+	text-align: center;
+}
+
+.topedgewhite{
+	display: inline-block;
+	height: 15px;
+	width: 90px;
+	background-color: white;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.topedgeblack{
+	display: inline-block;
+	height: 15px;
+	width: 70px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: black;
+}
+
+#smalltext{
+	font-size: 8em;
+	font-color: black;
+}

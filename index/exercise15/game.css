@@ -1,0 +1,34 @@
+.container{
+	display:inline-block;
+}
+.left{
+	flex: left;
+}
+
+.right{
+	float: right;
+}
+
+.pallette{
+
+}
+
+.pear{
+	
+}
+
+#one{
+
+}
+
+#two{
+
+}
+
+#three{
+
+}
+
+#message{
+
+}

@@ -1,0 +1,45 @@
+/*TYPOGRAPHY*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 2em;
+	font-size: 1em;
+}
+
+.container {
+border: 6px solid #cccccc;
+padding: 2em;
+margin: 10px 20px 10px auto;
+background-color: black;
+background-position: fixed;
+overflow: auto;
+}
+
+.chunk {
+	width: 75%;
+	height: 60%;
+	float: left;
+	background-color: #DAF7A6;
+	padding: 2em;
+	box-sizing: border-box;
+}
+
+.chunk2 {
+	width: 20%;
+	height: 60%;
+	float:right;
+	background-color: pink;
+	margin-left: 5%;
+	padding: 2em;
+	box-sizing: border-box;
+}
+
+.chunk3 {
+	width: 100%;
+	height: 60%;
+	float:right;
+	background-color: pink;
+	margin-left: 5%;
+	padding: 2em;
+	box-sizing: border-box;
+}

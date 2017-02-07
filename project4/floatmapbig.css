@@ -1,0 +1,191 @@
+body{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: left;
+	margin-left: 1.3em;
+	margin-top: .3em;
+	margin-right:1em;
+	width: 100vw;
+	font-size: 8em;
+	line-height: .5rem;
+}
+a{
+	text-decoration: none;
+}
+
+h1{
+	margin-top: .7em;
+	font-size: 8rem;
+	color: black;
+
+}
+img{
+	width: 100%
+}
+
+h3{
+	font-size: 3rem;
+	line-height: 3.3rem;
+}
+
+h4{
+	font-size: .9rem;
+}
+
+h5{
+	margin: 0;
+	font-size:.8rem;
+}
+
+
+
+#small{
+	width: 40%
+}
+
+#medium{
+	width: 55%
+}
+
+#large{
+	width: 80%;
+}
+
+.a{
+	position: absolute;
+	z-index: 5;
+}
+
+.a:hover{
+	z-index: 50;
+}
+
+
+
+.text{
+	width: 30%;
+	position: absolute;
+	z-index: 5;
+	color: black;
+	background-blend-mode: screen;
+	}
+
+#caption{
+	font-size: 1rem;
+	display: none;
+	background-color: black;
+	color:white;
+/*	filter: opacity(.5);
+*//*	width:35%;*/
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	padding-left:1rem;
+}
+
+
+.a:hover #caption{
+	display: block;
+}
+
+
+.text:hover{
+	z-index: 50;
+}
+
+
+
+.footercont{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-bottom: -40px
+}
+
+
+.footer{	
+	display: inline-block;
+	height: 15px;
+	width: 70px;
+	border: 1px;
+	border-color: grey;
+	border-style: solid;
+	list-style: none;
+	margin-top: 4.3em;
+}
+
+.tint{
+	width: 150px;
+	height: 114px;
+	opacity: .4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	padding:1em;
+}
+
+
+#red{
+	background-color: #D90000;
+}
+
+#orange{
+	background-color: #D56A2A;
+}
+
+#yellow{
+	background-color: #DA9F29;
+}
+
+#tan{
+	background-color: #F9EAC2;
+}
+
+#mint{
+	background-color: #ECFED5;
+}
+
+#green{
+	background-color: #41AD49;
+}
+
+
+#sky{
+	background-color: #D5EFFE;
+}
+
+#blue{
+	background-color: #00AEEF;
+}
+
+
+.topedge{
+	position: relative;
+	text-align: center;
+}
+
+.topedgewhite{
+	display: inline-block;
+	height: 15px;
+	width: 90px;
+	background-color: white;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.topedgeblack{
+	display: inline-block;
+	height: 15px;
+	width: 70px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: black;
+}
+
+#smalltext{
+	font-size: 1em;
+	font-color: black;
+}
